@@ -2,6 +2,6 @@
 node default{
  file {'/root/Readme.txt':
  ensure => file,
- content => 'This is a test \n',
+ content => 'This is a test ',
  }
 }
